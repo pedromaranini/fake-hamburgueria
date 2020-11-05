@@ -1,0 +1,91 @@
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+    background: #313833;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-landing .home-container img {
+    position: absolute;
+    left: 50px;
+    top: -100px;
+}
+
+#page-landing main {
+    max-width: 350px;
+}
+
+#page-landing main h1 {
+    position: absolute;
+
+    top: 400px;
+    left: 50px;
+    
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 10px;
+
+    color: #FFF;
+}
+
+#page-landing main p {
+    position: absolute;
+    
+    top: 450px;
+    left: 55px;
+
+    font-size: 24px;
+    line-height: 100px;
+
+    color: #FFF;
+}
+
+.location {
+    position: absolute;
+    right: 80px;
+    top: 90px;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.location strong {
+    font-weight: 800;
+    color: #FFF;
+}
+
+.location span {
+    color: #FFF;
+}
+
+.location .icon {
+    position: absolute;
+    right: 135px;
+    top: 15px;
+}
+
+.buttons-container {
+    position: absolute;
+    right: 70px;
+    bottom: 50px;
+
+    width: 80px;
+    height: 80px;
+    background: #FFF;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.2s;
+}
+
+
