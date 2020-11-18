@@ -1,7 +1,11 @@
+body {
+    overflow: hidden;
+}
+
 #page-landing {
     width: 100vw;
     height: 100vh;
-    background: #313833;
+    background: #BEDAEF;
 
     display: flex;
     justify-content: center;
@@ -14,11 +18,11 @@
     top: -100px;
 }
 
-#page-landing main {
+#page-landing .text {
     max-width: 350px;
 }
 
-#page-landing main h1 {
+#page-landing .text h1 {
     position: absolute;
 
     top: 400px;
@@ -28,10 +32,10 @@
     font-weight: 700;
     line-height: 10px;
 
-    color: #FFF;
+    color: #313833;
 }
 
-#page-landing main p {
+#page-landing .text p {
     position: absolute;
     
     top: 450px;
@@ -40,7 +44,7 @@
     font-size: 24px;
     line-height: 100px;
 
-    color: #FFF;
+    color: #313833;
 }
 
 .location {
@@ -58,17 +62,19 @@
 
 .location strong {
     font-weight: 800;
-    color: #FFF;
+    color: #313833;
 }
 
 .location span {
-    color: #FFF;
+    color:#313833;
 }
 
 .location .icon {
     position: absolute;
     right: 135px;
     top: 15px;
+
+    color: #313833;
 }
 
 .buttons-container {
@@ -78,7 +84,7 @@
 
     width: 80px;
     height: 80px;
-    background: #FFF;
+    background:#313833;
     border-radius: 30px;
 
     display: flex;
@@ -87,5 +93,31 @@
 
     transition: 0.2s;
 }
+
+@media (prefers-color-scheme: dark) {
+    #page-landing {
+        background: #010101;  
+    }
+
+    #page-landing .text h1 {
+        color: #888bda;
+    }
+
+    #page-landing .text p {
+        color: #888bda;
+    }
+    
+    .location strong {
+        color: #888bda;
+    }
+
+    .location span {
+        color:  #888bda;
+    }
+
+    .location .icon {
+        color:  #888bda;
+    }
+    }
 
 

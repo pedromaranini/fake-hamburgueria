@@ -11,9 +11,9 @@ function Header() {
   return (
     <div id="header">
       <img src={logoImg} alt="Hamburguer" />
-        <div className="back-icon">
+        <div className="back-icon" >
           <Link to="/">
-            <FiArrowLeft size={30} color="#FFF" />
+            <FiArrowLeft size={30} color="#e8ffff"/>
           </Link>
         </div>
     </div>
